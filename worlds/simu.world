@@ -55,7 +55,7 @@
           <geometry>
             <plane>
               <normal>0 0 1</normal>
-              <size>100 100</size>
+              <size>10000 10000</size>
             </plane>
           </geometry>
           <material>
@@ -178,16 +178,16 @@
         </link>
       </model>
       <model name='marker_cube'>
-        <pose frame=''>0.161422 -0.144074 0.499996 -1.59594 -1.57079 1.59613</pose>
+        <pose frame=''>0 0 0.499996 -1.59594 -1.57079 1.59613</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>0.161422 -0.144074 0.499996 -1.59594 -1.57079 1.59613</pose>
+          <pose frame=''>0 0 0.499996 -1.59594 -1.57079 1.59613</pose>
           <velocity>-0.000147 0.004005 -0.00392 -0.008018 -0.000199 4.5e-05</velocity>
           <acceleration>2.18453 2.46142 -4.59504 -1.72328 -1.31718 -3.13866</acceleration>
           <wrench>13.1072 14.7685 -27.5702 0 -0 0</wrench>
         </link>
         <link name='marker'>
-          <pose frame=''>0.161422 -0.144074 0.499996 -1.55301 -1.57079 1.5532</pose>
+          <pose frame=''>0 0 0.499996 -1.55301 -1.57079 1.5532</pose>
           <velocity>-0.000196 0.004026 -0.00392 -0.007964 -6.8e-05 7e-05</velocity>
           <acceleration>2.11595 2.52448 -4.59513 -1.56754 -1.4973 3.01565</acceleration>
           <wrench>2.11595 2.52448 -4.59513 0 -0 0</wrench>
